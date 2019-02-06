@@ -1,0 +1,15 @@
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:my="http://www.someCompany.com"
+      xsi:schemaLocation="http://www.someCompany.com ScenarioValid.xsd">
+
+  <context id="c1" >
+    <entity>
+      <identifier scheme="www.dnb.com">121064880</identifier>
+    </entity>
+    <period><instant>2002-12-01</instant></period>
+    <scenario>
+      <my:sampleScenario/>
+    </scenario>
+  </context>
+</xbrl>

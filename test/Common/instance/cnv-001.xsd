@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema targetNamespace="http://www.cnv.gov.ar/2003/xbrl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:cnv="http://www.cnv.gov.ar/2003/xbrl" xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<import namespace="http://www.xbrl.org/2003/instance" schemaLocation="../lib/xbrl-instance-2003-12-31.xsd"/>
+	<import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="../lib/xbrl-linkbase-2003-12-31.xsd"/>
+	<annotation>
+		<appinfo>
+			<xlink:linkbaseRef xlink:type="simple" xlink:href="cnv-001-reference.xml" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<!-- Only Spanish labels exist at this point as a linkbase.  The English translations are only in a spreadsheet. -->
+			<xlink:linkbaseRef xlink:type="simple" xlink:href="cnv-001-sp-label.xml" xlink:role="http://www.xbrl.org/linkprops/linkRef/label" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<xlink:linkbaseRef xlink:type="simple" xlink:href="cnv-001-calculation.xml" xlink:role="http://www.xbrl.org/linkprops/linkRef/calculation" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<xlink:linkbaseRef xlink:type="simple" xlink:href="cnv-001-presentation.xml" xlink:role="http://www.xbrl.org/linkprops/linkRef/presentation" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<xlink:linkbaseRef xlink:type="simple" xlink:href="cnv-001-definition.xml" xlink:role="http://www.xbrl.org/linkprops/linkRef/definition" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+		</appinfo>
+	</annotation>
+	<element name="AccionesaDistribuir" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AccionesaDistribuir"/>
+	<element name="ActivosIntangibles" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ActivosIntangibles"/>
+	<element name="AdelantosIrrevocables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AdelantosIrrevocables"/>
+	<element name="AdelantosIrrevocablesaCuentadeFuturasSuscrip." type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AdelantosIrrevocablesaCuentadeFuturasSuscrip."/>
+	<element name="AjustedeAdelantosIrrevocablesaCuentadeFutura" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AjustedeAdelantosIrrevocablesaCuentadeFutura"/>
+	<element name="AjustedeCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AjustedeCapital"/>
+	<element name="AjustesalPatrimonio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AjustesalPatrimonio"/>
+	<element name="AnticiposdeClientes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AnticiposdeClientes"/>
+	<element name="AportesIrrevocables_NoCapitalizados_" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="AportesIrrevocables_NoCapitalizados_"/>
+	<element name="Aumento_Disminucion_delosFondos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Aumento_Disminucion_delosFondos"/>
+	<element name="BienesdeCambio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="BienesdeCambio"/>
+	<element name="BienesdeUso" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="BienesdeUso"/>
+	<element name="BienesDiversos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="BienesDiversos"/>
+	<element name="BienesenLocacionFinanciera" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="BienesenLocacionFinanciera"/>
+	<element name="BienesIntangibles" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="BienesIntangibles"/>
+	<element name="BienesMueblesdeUso" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="BienesMueblesdeUso"/>
+	<element name="CapitalSocial" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CapitalSocial"/>
+	<element name="CapitalSuscripto" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CapitalSuscripto"/>
+	<element name="CargasFiscales" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CargasFiscales"/>
+	<element name="CargoporIncobrabilidad" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CargoporIncobrabilidad"/>
+	<element name="Chapter" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Chapter"/>
+	<element name="Common" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Common"/>
+	<element name="Comp.Tec.porSeg.yReaseguros" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Comp.Tec.porSeg.yReaseguros"/>
+	<element name="CostodeVentas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CostodeVentas"/>
+	<element name="Creditos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Creditos"/>
+	<element name="CreditosDiversos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CreditosDiversos"/>
+	<element name="CreditosporVentas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CreditosporVentas"/>
+	<element name="CuentasporPagar_Comerciales_" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="CuentasporPagar_Comerciales_"/>
+	<element name="Depositos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Depositos"/>
+	<element name="DiferenciadeValuacionNoRealizada" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="DiferenciadeValuacionNoRealizada"/>
+	<element name="Disponibilidades" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Disponibilidades"/>
+	<element name="Dividendos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Dividendos"/>
+	<element name="EgresosporServicios" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="EgresosporServicios"/>
+	<element name="FondosalCierredelEjercicio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="FondosalCierredelEjercicio"/>
+	<element name="FondosalIniciodelEjercicio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="FondosalIniciodelEjercicio"/>
+	<element name="FondosModificadosalIniciodelejercicio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="FondosModificadosalIniciodelejercicio"/>
+	<element name="Ganancia_Perdida_delEjercicio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Ganancia_Perdida_delEjercicio"/>
+	<element name="Ganancia_Perdida_Ordinaria" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Ganancia_Perdida_Ordinaria"/>
+	<element name="GastosdeAdministracion" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="GastosdeAdministracion"/>
+	<element name="GastosdeComercializacion" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="GastosdeComercializacion"/>
+	<element name="GastosdeExplotacionyotroscargos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="GastosdeExplotacionyotroscargos"/>
+	<element name="GastosdeProduccionyExplotacion" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="GastosdeProduccionyExplotacion"/>
+	<element name="GeneradosPorActivos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="GeneradosPorActivos"/>
+	<element name="GeneradosPorPasivos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="GeneradosPorPasivos"/>
+	<element name="ImpuestoalasGanancias" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ImpuestoalasGanancias"/>
+	<element name="ImpuestosalasGanancias" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ImpuestosalasGanancias"/>
+	<element name="IngresosFinancieros" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="IngresosFinancieros"/>
+	<element name="IngresosporServicios" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="IngresosporServicios"/>
+	<element name="Inmuebles" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Inmuebles"/>
+	<element name="Inversiones" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Inversiones"/>
+	<element name="ModificaciondeEjerciciosAnteriores" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ModificaciondeEjerciciosAnteriores"/>
+	<element name="Name" type="string" substitutionGroup="link:part" xbrli:periodType="instant" id="Name"/>
+	<element name="ObligacionesDiversas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ObligacionesDiversas"/>
+	<element name="ObligacionesSubordinadas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ObligacionesSubordinadas"/>
+	<element name="OtrasGananciasReservadas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrasGananciasReservadas"/>
+	<element name="OtrasReservas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrasReservas"/>
+	<element name="OtrosActivosCorrientes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosActivosCorrientes"/>
+	<element name="OtrosActivosNoCorrientes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosActivosNoCorrientes"/>
+	<element name="OtrosAportesNoCapitalizados" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosAportesNoCapitalizados"/>
+	<element name="OtrosCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosCapital"/>
+	<element name="OtrosCreditos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosCreditos"/>
+	<element name="OtrosEgresos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosEgresos"/>
+	<element name="OtrosGastos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosGastos"/>
+	<element name="OtrosIngresos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosIngresos"/>
+	<element name="OtrosPasivosCorrientes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosPasivosCorrientes"/>
+	<element name="OtrosPasivosNoCorrientes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosPasivosNoCorrientes"/>
+	<element name="OtrosRevaluos" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="OtrosRevaluos"/>
+	<element name="Paragraph" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Paragraph"/>
+	<element name="ParticipaciondeTercerosenSociedadesControladas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ParticipaciondeTercerosenSociedadesControladas"/>
+	<element name="ParticipacionenOtrasSociedades" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ParticipacionenOtrasSociedades"/>
+	<element name="PartidasPendientesdeImputacion" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="PartidasPendientesdeImputacion"/>
+	<element name="Prestamos_BancariosyFinancieros_" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Prestamos_BancariosyFinancieros_"/>
+	<element name="Previsiones" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Previsiones"/>
+	<element name="PrimadeEmision" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="PrimadeEmision"/>
+	<element name="RemuneracionesyCargasSociales" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="RemuneracionesyCargasSociales"/>
+	<element name="Rentas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Rentas"/>
+	<element name="ReservaLegal" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ReservaLegal"/>
+	<element name="ResultadoFinanciero" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoFinanciero"/>
+	<element name="ResultadoNetoAntesdeImp." type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoNetoAntesdeImp."/>
+	<element name="ResultadoNetoFinal" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoNetoFinal"/>
+	<element name="ResultadoNetoInterm.Financiera" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoNetoInterm.Financiera"/>
+	<element name="ResultadoOperacionesExtraordinarias" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoOperacionesExtraordinarias"/>
+	<element name="ResultadoOperacionesOrdinarias" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoOperacionesOrdinarias"/>
+	<element name="ResultadoporExposicionalaInflacion" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoporExposicionalaInflacion"/>
+	<element name="ResultadosNoAsignados" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadosNoAsignados"/>
+	<element name="ResultadosporRealizacion" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadosporRealizacion"/>
+	<element name="ResultadoTecnico" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="ResultadoTecnico"/>
+	<element name="RevaluoPropio" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="RevaluoPropio"/>
+	<element name="RevaluoSociedadArt.33LeySoc.Com." type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="RevaluoSociedadArt.33LeySoc.Com."/>
+	<element name="Subparagraph" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Subparagraph"/>
+	<element name="Subtotal" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="Subtotal"/>
+	<element name="TotalActivo" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="TotalActivo"/>
+	<element name="TotalActivoCorriente" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="TotalActivoCorriente"/>
+	<element name="TotalActivoNoCorriente" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="TotalActivoNoCorriente"/>
+	<element name="TotalAportesNoCapitalizados" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="TotalAportesNoCapitalizados"/>
+	<element name="TotalCapital" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="TotalCapital"/>
+	<element name="TotalGananciasReservadas" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" id="TotalGananciasReservadas"/>
+	<!--this is a comment-->
+	<element name="TotalPasivo" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" id="TotalPasivo"/>
+	<element name="TotalPasivoCorriente" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" id="TotalPasivoCorriente"/>
+	<element name="TotalPasivoNoCorriente" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" id="TotalPasivoNoCorriente"/>
+	<element name="TotalPatrimonioNeto" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" id="TotalPatrimonioNeto"/>
+	<element name="TotalResultadosNoAsignados" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" id="TotalResultadosNoAsignados"/>
+	<element name="TotalRevaluacionesTecnicasContables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" id="TotalRevaluacionesTecnicasContables"/>
+</schema>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema targetNamespace="http://www.xbrl.org/2003/conformance/management" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cm="http://www.xbrl.org/2003/conformance/management" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="conformance" type="cm:conformance.type">
+		<xs:annotation>
+			<xs:documentation>Root element of the XBRL conformance test suite development and management database.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="conformance.type">
+		<xs:sequence>
+			<xs:element name="contributors" type="cm:contributors.type">
+				<xs:annotation>
+					<xs:documentation>The list of contributors to XBRL conformance test development and management.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="testcases" type="cm:testcases.type" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>A list of test cases comprising part of the XBRL conformance test suite.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="contributors.type">
+		<xs:sequence>
+			<xs:element name="contributor" type="cm:contributor.type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Information concerning an individual contributor to XBRL conformance test development and management.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="contributor.type">
+		<xs:sequence>
+			<xs:element name="identifier" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>A short human-readable identifier for an individual contributor (used as a label by transformations).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="contact" type="cm:contributor.contact.type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Optional contact information for the contributor.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Optional additional information describing the contributor.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required">
+			<xs:annotation>
+				<xs:documentation>A required arbitrary unique identifier for the contributor.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="voting" type="xs:boolean" use="optional" default="false">
+			<xs:annotation>
+				<xs:documentation>Specifies whether this contributor is to be considered in determining the acceptance status of a test case variation.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="contributor.description.type">
+		<xs:sequence>
+			<xs:any namespace="##other" processContents="lax" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="contributor.contact.type">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>An optional human-readable name describing the contact.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="e-mail" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>An optional e-mail address for the contact.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="contributor.ref.type">
+		<xs:sequence/>
+		<xs:attribute name="contributorRef" type="xs:IDREF">
+			<xs:annotation>
+				<xs:documentation>The ID of a contributor defined within the same instance document.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="testcases.type">
+		<xs:sequence>
+			<xs:element name="originator" type="cm:contributor.ref.type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The original contributor of this set of test case definitions, if any. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="manager" type="cm:contributor.ref.type" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The contributor currently responsible for managing this group of test cases.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="testcase" type="cm:testcase.type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Identification and management information for one XBRL conformance suite test case definition.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="base" type="xs:anyURI" use="optional">
+			<xs:annotation>
+				<xs:documentation>The base location of test case definition files in this test case group. A relative URI value for this attribute should be interpreted with respect to the location of the instance of this schema specifying the attribute. If the attribute is omitted, the value should be assumed to be identical to the location of the instance document.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="testcase.type">
+		<xs:sequence>
+			<xs:element name="originator" type="cm:contributor.ref.type" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The original contributor of this test case, if any. If this element is omitted, the originator of the enclosing testcases element is assumed. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="manager" type="cm:contributor.ref.type" nillable="false" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The contributor currently responsible for managing this test case. If this element is omitted, the manager of the enclosing testcases element is assumed.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="variation" type="cm:variation.type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Identification and management information for one XBRL conformance suite test case variation.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="uri" type="xs:anyURI" use="required">
+			<xs:annotation>
+				<xs:documentation>The location of test case definition file. A relative URI value for this attribute should be interpreted with respect to the base location of the enclosing testcases element.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="variation.type">
+		<xs:sequence>
+			<xs:element name="originator" type="cm:contributor.ref.type" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The original contributor of this test case variation, if any. If this element is omitted, the originator of the enclosing testcase element is assumed. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="manager" type="cm:contributor.ref.type" nillable="true" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The contributor currently responsible for managing this test case variation.  If this element is omitted, the manager of the enclosing testcase element is assumed.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="status" type="cm:variation.status.type" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Indicates an approval status for the test variation by one voting contributor.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="locator" type="xs:NCName" use="required">
+			<xs:annotation>
+				<xs:documentation>A name that serves as a fragment identifier for the variation within its test case definition document.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="stable" type="xs:boolean" use="optional" default="false">
+			<xs:annotation>
+				<xs:documentation>Indicates whether the test variation has been evaluated by its managing contributor, modified as necessary, and is considered stable and ready for general use.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="variation.status.type">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="contributorRef" type="xs:IDREF" use="required">
+					<xs:annotation>
+						<xs:documentation>The ID of the voting contributor.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="approved" type="xs:boolean" default="false"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

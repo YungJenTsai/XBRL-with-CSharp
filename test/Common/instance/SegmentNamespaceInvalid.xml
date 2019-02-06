@@ -1,0 +1,23 @@
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:nemo="http://captain.nemo.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xlink="http://www.xbrl.org/2001/XLink"
+      xsi:schemaLocation="
+        http://www.xbrl.org/2003/instance xbrl-instance.xsd
+        http://captain.nemo.org nautilus.xsd">
+  <schemaRef xlink:type="simple" xlink:href="nautilus.xsd"/>
+  <context id="c1" >
+    <entity>
+      <identifier scheme="www.dnb.com">121064880</identifier>
+      <segment id="Pierre">
+        <nemo:arronax>
+          <context id="FrenchNovel">
+            <entity><identifier scheme="JulesVerne">20K Leagues</identifier></entity>
+            <period><forever/></period>
+          </context>
+        </nemo:arronax>
+      </segment>
+    </entity>
+    <period><instant>2002-12-01</instant></period>
+  </context>
+</xbrl>

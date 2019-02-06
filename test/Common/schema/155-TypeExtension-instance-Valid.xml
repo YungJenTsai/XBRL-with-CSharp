@@ -1,0 +1,38 @@
+<xbrl xmlns="http://www.xbrl.org/2003/instance"
+      xmlns:link="http://www.xbrl.org/2003/linkbase"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+      xmlns:my="http://xbrl.org/conformance/155"
+      xsi:schemaLocation="http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd
+                          http://xbrl.org/conformance/155 155-TypeExtension-Valid.xsd">
+
+  <link:schemaRef xlink:type="simple" xlink:href="155-TypeExtension-Valid.xsd" />
+
+  <context id="C1">
+    <entity>
+      <identifier scheme="http://www.sampleCompany.com">Sample Company</identifier>
+    </entity>
+    <period>
+      <instant>2004-12-31</instant>
+    </period>
+  </context>
+
+    <unit id="U1">
+        <measure>iso4217:USD</measure>
+    </unit>
+
+<my:NormalDepreciationStuff>
+    <my:DepreciationMethod contextRef="C1">Test Data</my:DepreciationMethod>
+    <my:ProFormaNetAtCost contextRef="C1" unitRef="U1" decimals="0">3</my:ProFormaNetAtCost>
+    <my:AmountUnderFinanceLease contextRef="C1" unitRef="U1" decimals="0">3</my:AmountUnderFinanceLease>
+</my:NormalDepreciationStuff>
+
+<my:ExtendedDepreciationStuff>
+    <my:DepreciationMethod contextRef="C1">Test Data</my:DepreciationMethod>
+    <my:ProFormaNetAtCost contextRef="C1" unitRef="U1" decimals="0">3</my:ProFormaNetAtCost>
+    <my:AmountUnderFinanceLease contextRef="C1" unitRef="U1" decimals="0">3</my:AmountUnderFinanceLease>
+    <my:TestElement contextRef="C1" unitRef="U1" decimals="0">300.25</my:TestElement>
+</my:ExtendedDepreciationStuff>
+
+</xbrl>

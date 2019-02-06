@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrl xmlns="http://www.xbrl.org/2003/instance" xmlns:cnv="http://www.cnv.gov.ar/2003/xbrl" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cnv.gov.ar/2003/xbrl
+cnv-001.xsd">
+	<link:schemaRef xlink:type="simple" xlink:href="cnv-001.xsd"/>
+	<unit id="u1">
+		<measure>ISO4217:USD</measure>
+	</unit>
+	<context id="c1">
+		<entity>
+			<identifier scheme="www.cnv.gov.ar/cnv">norne</identifier>
+		</entity>
+		<period>
+			<instant>2001-12-31</instant>
+		</period>
+	</context>
+	<cnv:Creditos contextRef="c1" unitRef="u1" precision="5">50000</cnv:Creditos>
+	<cnv:BienesdeUso contextRef="c1" unitRef="u1" precision="5">7000</cnv:BienesdeUso>
+	<cnv:BienesDiversos contextRef="c1" unitRef="u1" precision="5">6000</cnv:BienesDiversos>
+</xbrl>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 16-07-2004 edit by Ron van Ardenne (www.batavia-xbrl.com / J2R BV) -->
+<!-- XBRL 2.1 Tests -->
+<!-- Copyright 2003 XBRL International.  See www.xbrl.org/legal.  All Rights Reserved. -->
+<?xml-stylesheet type="text/xsl" href="../../testcase.xsl"?>
+<testcase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Tuple" description="Section 4.5 The tuple element" outpath="out" owner="n-sanbuichi@hitachi-system.co.jp" xsi:noNamespaceSchemaLocation="../lib/test.xsd" minimal="true">
+	<variation id="V-1" name="SpecTupleExample">
+		<description>104.01 Tuples are derived from tupleType.</description>
+		<data>
+			<xsd readMeFirst="false">104-01-SpecTupleExample.xsd</xsd>
+			<instance readMeFirst="true">104-01-SpecTupleExample.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-2" name="TupleExampleAnyOrder">
+		<description>104.02 Tuples are derived from tupleType and subelements all appear as references.</description>
+		<data>
+			<xsd readMeFirst="false">104-02-TupleExampleAnyOrder.xsd</xsd>
+			<instance readMeFirst="true">104-02-TupleExampleAnyOrder.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-3" name="TupleExampleCardinality">
+		<description>104.03 Subelements of a tuple may use minOccurs and maxOccurs.</description>
+		<data>
+			<xsd readMeFirst="false">104-03-TupleExampleCardinality.xsd</xsd>
+			<instance readMeFirst="true">104-03-TupleExampleCardinality.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-4" name="TupleExampleComplexType">
+		<description>104.04 Tuples may be defined as a complex type.</description>
+		<data>
+			<xsd readMeFirst="false">104-04-TupleExampleComplexType.xsd</xsd>
+			<instance readMeFirst="true">104-04-TupleExampleComplextype.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-5" name="TupleExampleNestedComplexType">
+		<description>104.05 Tuples may be defined as a complex type containing other tuples.</description>
+		<data>
+			<xsd readMeFirst="false">104-05-TupleExampleNestedComplexType.xsd</xsd>
+			<instance readMeFirst="true">104-05-TupleExampleNestedComplextype.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-6" name="TupleCounterExampleNestedComplexType">
+		<description>104.06 Tuples must not contain anonymous type definitions.</description>
+		<data>
+			<xsd readMeFirst="true">104-06-TupleCounterExampleNestedComplexType.xsd</xsd>
+		</data>
+		<result expected="invalid"/>
+	</variation>
+	<variation id="V-7" name="TupleChoiceExample">
+		<description>104.07 Tuples may be defined using choice, sequence and all elements.</description>
+		<data>
+			<xsd readMeFirst="false">104-07-TupleChoiceExample.xsd</xsd>
+			<instance readMeFirst="true">104-07-TupleChoiceExample.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-8" name="TupleAnyCounterExample">
+		<description>104.08 Tuples can use the any element, section 4.9, point 7, erratum 2.8.</description>
+		<data>
+			<xsd readMeFirst="true">104-08-TupleAnyCounterExample.xsd</xsd>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-9" name="TupleAttributeCounterExample">
+		<description>104.09 Tuples can have unqualified local attributes other than id.</description>
+		<data>
+			<instance readMeFirst="true">104-09-TupleAttributeCounterExample.xml</instance>
+			<xsd>104-09-TupleAttributeCounterExample.xsd</xsd>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-10" name="TupleXBRLAttributeCounterExample">
+		<description>104.10 Tuples should not have attributes in XBRL spec defined namespaces.</description>
+		<data>
+			<instance readMeFirst="true">104-10-TupleXBRLAttributeCounterExample.xml</instance>
+			<xsd>104-10-TupleXBRLAttributeCounterExample.xsd</xsd>
+		</data>
+		<result expected="invalid"/>
+	</variation>
+	<variation id="V-11" name="TupleGroupCounterExample">
+		<description>104.11 Tuples can use the group element.</description>
+		<data>
+			<xsd readMeFirst="true">104-11-TupleGroupCounterExample.xsd</xsd>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-12" name="TupleMixedCounterExample">
+		<description>104.12 Tuples must not use the mixed attribute.</description>
+		<data>
+			<xsd readMeFirst="true">104-12-TupleMixedCounterExample.xsd</xsd>
+		</data>
+		<result expected="invalid"/>
+	</variation>
+	<variation id="V-13" name="TupleRestrictionExample">
+		<description>104.13 A tuple's content model can be derived by restriction from xsd:anyType.</description>
+		<data>
+			<xsd readMeFirst="false">104-13-TupleRestrictionExample.xsd</xsd>
+			<instance readMeFirst="true">104-13-TupleRestrictionExample.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-14" name="TupleNestedRestrictionExample">
+		<description>104.14 a tuple's content model may be derived by either restriction or extension from a data type derived by xsd:anyType. This is the case of derivation of restriction.</description>
+		<data>
+			<xsd readMeFirst="false">104-14-TupleNestedRestrictionExample.xsd</xsd>
+			<instance readMeFirst="true">104-14-TupleNestedRestrictionExample.xml</instance>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-16" name="TupleAbstractCounterExample">
+		<description>Errata #23 - 104.16 Tuple elements can be declared abstract.</description>
+		<data>
+			<xsd readMeFirst="true">104-16-TupleAbstractCounterExample.xsd</xsd>
+		</data>
+		<result expected="valid"/>
+	</variation>
+	<variation id="V-17" name="TupleAnonymousCounterExample">
+		<description>104.17 Sub-elements of the tuple MUST NOT contain any anonymous type declarations.</description>
+		<data>
+			<xsd readMeFirst="true">104-17-TupleAnonymousCounterExample.xsd</xsd>
+		</data>
+		<result expected="invalid"/>
+	</variation>
+	<variation id="V-18" name="Redefine">
+		<description>104.18 Redefine element MUST NOT be used. This is bug#30 and erratam #30</description>
+		<data>
+			<xsd readMeFirst="false">104-18-base.xsd</xsd>
+			<xsd readMeFirst="true">104-18-redefine.xsd</xsd>
+		</data>
+		<result expected="invalid"/>
+	</variation>
+	<variation id="V-19" name="Abstract Tuple Definition">
+		<description>104.19 Abstract tuple definition can be possible. bug# 31.Erratum#28</description>
+		<data>
+			<xsd readMeFirst="true">104-19-abstractTuple.xsd</xsd>
+		</data>
+		<result expected="valid"/>
+	</variation>
+</testcase>

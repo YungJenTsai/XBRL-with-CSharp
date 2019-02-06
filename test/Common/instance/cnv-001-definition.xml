@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:cnv="http://www.cnv.gov.ar/2003/xbrl" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/instance ../lib/xbrl-instance-2003-12-31.xsd http://www.cnv.gov.ar/2003/xbrl cnv-001.xsd">
+	<definitionLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalRevaluacionesTecnicasContables" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalRevaluacionesTecnicasContables"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalResultadosNoAsignados" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalResultadosNoAsignados"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalPatrimonioNeto" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalPatrimonioNeto"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalPasivoNoCorriente" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalPasivoNoCorriente"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalPasivoCorriente" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalPasivoCorriente"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalPasivo" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalPasivo"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalGananciasReservadas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalGananciasReservadas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalCapital" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalCapital"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalAportesNoCapitalizados" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalAportesNoCapitalizados"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalActivoNoCorriente" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalActivoNoCorriente"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalActivoCorriente" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalActivoCorriente"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of TotalActivo" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_TotalActivo"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Subtotal" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Subtotal"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of RevaluoSociedadArt.33LeySoc.Com." xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_RevaluoSociedadArt.33LeySoc.Com."/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of RevaluoPropio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_RevaluoPropio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoTecnico" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoTecnico"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadosporRealizacion" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadosporRealizacion"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadosNoAsignados" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadosNoAsignados"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoporExposicionalaInflacion" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoporExposicionalaInflacion"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoOperacionesOrdinarias" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoOperacionesOrdinarias"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoOperacionesExtraordinarias" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoOperacionesExtraordinarias"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoNetoInterm.Financiera" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoNetoInterm.Financiera"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoNetoFinal" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoNetoFinal"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoNetoAntesdeImp." xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoNetoAntesdeImp."/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ResultadoFinanciero" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ResultadoFinanciero"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ReservaLegal" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ReservaLegal"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Rentas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Rentas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of RemuneracionesyCargasSociales" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_RemuneracionesyCargasSociales"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of PrimadeEmision" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_PrimadeEmision"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Previsiones" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Previsiones"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Prestamos_BancariosyFinancieros_" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Prestamos_BancariosyFinancieros_"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of PartidasPendientesdeImputacion" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_PartidasPendientesdeImputacion"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ParticipacionenOtrasSociedades" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ParticipacionenOtrasSociedades"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ParticipaciondeTercerosenSociedadesControladas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ParticipaciondeTercerosenSociedadesControladas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosRevaluos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosRevaluos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosPasivosNoCorrientes" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosPasivosNoCorrientes"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosPasivosCorrientes" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosPasivosCorrientes"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosIngresos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosIngresos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosGastos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosGastos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosEgresos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosEgresos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosCreditos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosCreditos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosCapital" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosCapital"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosAportesNoCapitalizados" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosAportesNoCapitalizados"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosActivosNoCorrientes" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosActivosNoCorrientes"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrosActivosCorrientes" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrosActivosCorrientes"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrasReservas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrasReservas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of OtrasGananciasReservadas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_OtrasGananciasReservadas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ObligacionesSubordinadas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ObligacionesSubordinadas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ObligacionesDiversas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ObligacionesDiversas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ModificaciondeEjerciciosAnteriores" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ModificaciondeEjerciciosAnteriores"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Inversiones" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Inversiones"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Inmuebles" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Inmuebles"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of IngresosporServicios" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_IngresosporServicios"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of IngresosFinancieros" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_IngresosFinancieros"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ImpuestosalasGanancias" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ImpuestosalasGanancias"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ImpuestoalasGanancias" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ImpuestoalasGanancias"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of GeneradosPorPasivos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_GeneradosPorPasivos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of GeneradosPorActivos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_GeneradosPorActivos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of GastosdeProduccionyExplotacion" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_GastosdeProduccionyExplotacion"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of GastosdeExplotacionyotroscargos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_GastosdeExplotacionyotroscargos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of GastosdeComercializacion" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_GastosdeComercializacion"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of GastosdeAdministracion" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_GastosdeAdministracion"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Ganancia_Perdida_Ordinaria" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Ganancia_Perdida_Ordinaria"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Ganancia_Perdida_delEjercicio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Ganancia_Perdida_delEjercicio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of FondosModificadosalIniciodelejercicio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_FondosModificadosalIniciodelejercicio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of FondosalIniciodelEjercicio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_FondosalIniciodelEjercicio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of FondosalCierredelEjercicio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_FondosalCierredelEjercicio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of EgresosporServicios" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_EgresosporServicios"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Dividendos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Dividendos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Disponibilidades" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Disponibilidades"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of DiferenciadeValuacionNoRealizada" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_DiferenciadeValuacionNoRealizada"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Depositos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Depositos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CuentasporPagar_Comerciales_" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CuentasporPagar_Comerciales_"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CreditosporVentas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CreditosporVentas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CreditosDiversos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CreditosDiversos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Creditos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Creditos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CostodeVentas" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CostodeVentas"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Comp.Tec.porSeg.yReaseguros" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Comp.Tec.porSeg.yReaseguros"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CargoporIncobrabilidad" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CargoporIncobrabilidad"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CargasFiscales" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CargasFiscales"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CapitalSuscripto" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CapitalSuscripto"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of CapitalSocial" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_CapitalSocial"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of BienesMueblesdeUso" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_BienesMueblesdeUso"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of BienesIntangibles" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_BienesIntangibles"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of BienesenLocacionFinanciera" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_BienesenLocacionFinanciera"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of BienesDiversos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_BienesDiversos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of BienesdeUso" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_BienesdeUso"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of BienesdeCambio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_BienesdeCambio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of Aumento_Disminucion_delosFondos" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_Aumento_Disminucion_delosFondos"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AportesIrrevocables_NoCapitalizados_" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AportesIrrevocables_NoCapitalizados_"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AnticiposdeClientes" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AnticiposdeClientes"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AjustesalPatrimonio" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AjustesalPatrimonio"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AjustedeCapital" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AjustedeCapital"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AjustedeAdelantosIrrevocablesaCuentadeFutura" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AjustedeAdelantosIrrevocablesaCuentadeFutura"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AdelantosIrrevocablesaCuentadeFuturasSuscrip." xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AdelantosIrrevocablesaCuentadeFuturasSuscrip."/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AdelantosIrrevocables" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AdelantosIrrevocables"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of ActivosIntangibles" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_ActivosIntangibles"/>
+		<definitionArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/linkprops/arc/parent-child" xlink:title="definition: Common is perent of AccionesaDistribuir" xlink:show="replace" xlink:actuate="onRequest" xlink:from="L37525_Common" xlink:to="L37525_AccionesaDistribuir"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AccionesaDistribuir" xlink:label="L37525_AccionesaDistribuir"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ActivosIntangibles" xlink:label="L37525_ActivosIntangibles"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AdelantosIrrevocables" xlink:label="L37525_AdelantosIrrevocables"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AdelantosIrrevocablesaCuentadeFuturasSuscrip." xlink:label="L37525_AdelantosIrrevocablesaCuentadeFuturasSuscrip."/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AjustedeAdelantosIrrevocablesaCuentadeFutura" xlink:label="L37525_AjustedeAdelantosIrrevocablesaCuentadeFutura"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AjustedeCapital" xlink:label="L37525_AjustedeCapital"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AjustesalPatrimonio" xlink:label="L37525_AjustesalPatrimonio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AnticiposdeClientes" xlink:label="L37525_AnticiposdeClientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#AportesIrrevocables_NoCapitalizados_" xlink:label="L37525_AportesIrrevocables_NoCapitalizados_"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Aumento_Disminucion_delosFondos" xlink:label="L37525_Aumento_Disminucion_delosFondos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#BienesdeCambio" xlink:label="L37525_BienesdeCambio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#BienesdeUso" xlink:label="L37525_BienesdeUso"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#BienesDiversos" xlink:label="L37525_BienesDiversos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#BienesenLocacionFinanciera" xlink:label="L37525_BienesenLocacionFinanciera"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#BienesIntangibles" xlink:label="L37525_BienesIntangibles"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#BienesMueblesdeUso" xlink:label="L37525_BienesMueblesdeUso"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CapitalSocial" xlink:label="L37525_CapitalSocial"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CapitalSuscripto" xlink:label="L37525_CapitalSuscripto"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CargasFiscales" xlink:label="L37525_CargasFiscales"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CargoporIncobrabilidad" xlink:label="L37525_CargoporIncobrabilidad"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Chapter" xlink:label="L37525_Chapter"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Common" xlink:label="L37525_Common"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Comp.Tec.porSeg.yReaseguros" xlink:label="L37525_Comp.Tec.porSeg.yReaseguros"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CostodeVentas" xlink:label="L37525_CostodeVentas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Creditos" xlink:label="L37525_Creditos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CreditosDiversos" xlink:label="L37525_CreditosDiversos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CreditosporVentas" xlink:label="L37525_CreditosporVentas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#CuentasporPagar_Comerciales_" xlink:label="L37525_CuentasporPagar_Comerciales_"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Depositos" xlink:label="L37525_Depositos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#DiferenciadeValuacionNoRealizada" xlink:label="L37525_DiferenciadeValuacionNoRealizada"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Disponibilidades" xlink:label="L37525_Disponibilidades"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Dividendos" xlink:label="L37525_Dividendos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#EgresosporServicios" xlink:label="L37525_EgresosporServicios"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#FondosalCierredelEjercicio" xlink:label="L37525_FondosalCierredelEjercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#FondosalIniciodelEjercicio" xlink:label="L37525_FondosalIniciodelEjercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#FondosModificadosalIniciodelejercicio" xlink:label="L37525_FondosModificadosalIniciodelejercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Ganancia_Perdida_delEjercicio" xlink:label="L37525_Ganancia_Perdida_delEjercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Ganancia_Perdida_Ordinaria" xlink:label="L37525_Ganancia_Perdida_Ordinaria"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#GastosdeAdministracion" xlink:label="L37525_GastosdeAdministracion"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#GastosdeComercializacion" xlink:label="L37525_GastosdeComercializacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#GastosdeExplotacionyotroscargos" xlink:label="L37525_GastosdeExplotacionyotroscargos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#GastosdeProduccionyExplotacion" xlink:label="L37525_GastosdeProduccionyExplotacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#GeneradosPorActivos" xlink:label="L37525_GeneradosPorActivos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#GeneradosPorPasivos" xlink:label="L37525_GeneradosPorPasivos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ImpuestoalasGanancias" xlink:label="L37525_ImpuestoalasGanancias"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ImpuestosalasGanancias" xlink:label="L37525_ImpuestosalasGanancias"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#IngresosFinancieros" xlink:label="L37525_IngresosFinancieros"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#IngresosporServicios" xlink:label="L37525_IngresosporServicios"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Inmuebles" xlink:label="L37525_Inmuebles"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Inversiones" xlink:label="L37525_Inversiones"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ModificaciondeEjerciciosAnteriores" xlink:label="L37525_ModificaciondeEjerciciosAnteriores"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Name" xlink:label="L37525_Name"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Number" xlink:label="L37525_Number"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ObligacionesDiversas" xlink:label="L37525_ObligacionesDiversas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ObligacionesSubordinadas" xlink:label="L37525_ObligacionesSubordinadas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrasGananciasReservadas" xlink:label="L37525_OtrasGananciasReservadas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrasReservas" xlink:label="L37525_OtrasReservas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosActivosCorrientes" xlink:label="L37525_OtrosActivosCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosActivosNoCorrientes" xlink:label="L37525_OtrosActivosNoCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosAportesNoCapitalizados" xlink:label="L37525_OtrosAportesNoCapitalizados"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosCapital" xlink:label="L37525_OtrosCapital"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosCreditos" xlink:label="L37525_OtrosCreditos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosEgresos" xlink:label="L37525_OtrosEgresos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosGastos" xlink:label="L37525_OtrosGastos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosIngresos" xlink:label="L37525_OtrosIngresos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosPasivosCorrientes" xlink:label="L37525_OtrosPasivosCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosPasivosNoCorrientes" xlink:label="L37525_OtrosPasivosNoCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#OtrosRevaluos" xlink:label="L37525_OtrosRevaluos"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Paragraph" xlink:label="L37525_Paragraph"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ParticipaciondeTercerosenSociedadesControladas" xlink:label="L37525_ParticipaciondeTercerosenSociedadesControladas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ParticipacionenOtrasSociedades" xlink:label="L37525_ParticipacionenOtrasSociedades"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#PartidasPendientesdeImputacion" xlink:label="L37525_PartidasPendientesdeImputacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Prestamos_BancariosyFinancieros_" xlink:label="L37525_Prestamos_BancariosyFinancieros_"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Previsiones" xlink:label="L37525_Previsiones"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#PrimadeEmision" xlink:label="L37525_PrimadeEmision"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#RemuneracionesyCargasSociales" xlink:label="L37525_RemuneracionesyCargasSociales"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Rentas" xlink:label="L37525_Rentas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ReservaLegal" xlink:label="L37525_ReservaLegal"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoFinanciero" xlink:label="L37525_ResultadoFinanciero"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoNetoAntesdeImp." xlink:label="L37525_ResultadoNetoAntesdeImp."/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoNetoFinal" xlink:label="L37525_ResultadoNetoFinal"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoNetoInterm.Financiera" xlink:label="L37525_ResultadoNetoInterm.Financiera"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoOperacionesExtraordinarias" xlink:label="L37525_ResultadoOperacionesExtraordinarias"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoOperacionesOrdinarias" xlink:label="L37525_ResultadoOperacionesOrdinarias"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoporExposicionalaInflacion" xlink:label="L37525_ResultadoporExposicionalaInflacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadosNoAsignados" xlink:label="L37525_ResultadosNoAsignados"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadosporRealizacion" xlink:label="L37525_ResultadosporRealizacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#ResultadoTecnico" xlink:label="L37525_ResultadoTecnico"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#RevaluoPropio" xlink:label="L37525_RevaluoPropio"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#RevaluoSociedadArt.33LeySoc.Com." xlink:label="L37525_RevaluoSociedadArt.33LeySoc.Com."/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Subparagraph" xlink:label="L37525_Subparagraph"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#Subtotal" xlink:label="L37525_Subtotal"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalActivo" xlink:label="L37525_TotalActivo"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalActivoCorriente" xlink:label="L37525_TotalActivoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalActivoNoCorriente" xlink:label="L37525_TotalActivoNoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalAportesNoCapitalizados" xlink:label="L37525_TotalAportesNoCapitalizados"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalCapital" xlink:label="L37525_TotalCapital"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalGananciasReservadas" xlink:label="L37525_TotalGananciasReservadas"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalPasivo" xlink:label="L37525_TotalPasivo"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalPasivoCorriente" xlink:label="L37525_TotalPasivoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalPasivoNoCorriente" xlink:label="L37525_TotalPasivoNoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalPatrimonioNeto" xlink:label="L37525_TotalPatrimonioNeto"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalResultadosNoAsignados" xlink:label="L37525_TotalResultadosNoAsignados"/>
+		<loc xlink:type="locator" xlink:href="cnv-001.xsd#TotalRevaluacionesTecnicasContables" xlink:label="L37525_TotalRevaluacionesTecnicasContables"/>
+	</definitionLink>
+</linkbase>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:cnv="http://www.cnv.gov.ar/2003/xbrl" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/instance ../lib/xbrl-instance-2003-12-31.xsd http://www.cnv.gov.ar/2003/xbrl cnv-001.xsd">
+	<referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalRevaluacionesTecnicasContables" xlink:to="L37525_TotalRevaluacionesTecnicasContables_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalResultadosNoAsignados" xlink:to="L37525_TotalResultadosNoAsignados_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalPatrimonioNeto" xlink:to="L37525_TotalPatrimonioNeto_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalPasivoNoCorriente" xlink:to="L37525_TotalPasivoNoCorriente_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalPasivoCorriente" xlink:to="L37525_TotalPasivoCorriente_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalPasivo" xlink:to="L37525_TotalPasivo_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalGananciasReservadas" xlink:to="L37525_TotalGananciasReservadas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalCapital" xlink:to="L37525_TotalCapital_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalAportesNoCapitalizados" xlink:to="L37525_TotalAportesNoCapitalizados_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalActivoNoCorriente" xlink:to="L37525_TotalActivoNoCorriente_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalActivoCorriente" xlink:to="L37525_TotalActivoCorriente_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_TotalActivo" xlink:to="L37525_TotalActivo_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Subtotal" xlink:to="L37525_Subtotal_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Subparagraph" xlink:to="L37525_Subparagraph_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_RevaluoSociedadArt.33LeySoc.Com." xlink:to="L37525_RevaluoSociedadArt.33LeySoc.Com._REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_RevaluoPropio" xlink:to="L37525_RevaluoPropio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoTecnico" xlink:to="L37525_ResultadoTecnico_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadosporRealizacion" xlink:to="L37525_ResultadosporRealizacion_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadosNoAsignados" xlink:to="L37525_ResultadosNoAsignados_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoporExposicionalaInflacion" xlink:to="L37525_ResultadoporExposicionalaInflacion_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoOperacionesOrdinarias" xlink:to="L37525_ResultadoOperacionesOrdinarias_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoOperacionesExtraordinarias" xlink:to="L37525_ResultadoOperacionesExtraordinarias_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoNetoInterm.Financiera" xlink:to="L37525_ResultadoNetoInterm.Financiera_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoNetoFinal" xlink:to="L37525_ResultadoNetoFinal_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoNetoAntesdeImp." xlink:to="L37525_ResultadoNetoAntesdeImp._REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ResultadoFinanciero" xlink:to="L37525_ResultadoFinanciero_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ReservaLegal" xlink:to="L37525_ReservaLegal_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Rentas" xlink:to="L37525_Rentas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_RemuneracionesyCargasSociales" xlink:to="L37525_RemuneracionesyCargasSociales_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_PrimadeEmision" xlink:to="L37525_PrimadeEmision_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Previsiones" xlink:to="L37525_Previsiones_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Prestamos_BancariosyFinancieros_" xlink:to="L37525_Prestamos_BancariosyFinancieros__REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_PartidasPendientesdeImputacion" xlink:to="L37525_PartidasPendientesdeImputacion_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ParticipacionenOtrasSociedades" xlink:to="L37525_ParticipacionenOtrasSociedades_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ParticipaciondeTercerosenSociedadesControladas" xlink:to="L37525_ParticipaciondeTercerosenSociedadesControladas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Paragraph" xlink:to="L37525_Paragraph_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosRevaluos" xlink:to="L37525_OtrosRevaluos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosPasivosNoCorrientes" xlink:to="L37525_OtrosPasivosNoCorrientes_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosPasivosCorrientes" xlink:to="L37525_OtrosPasivosCorrientes_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosIngresos" xlink:to="L37525_OtrosIngresos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosGastos" xlink:to="L37525_OtrosGastos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosEgresos" xlink:to="L37525_OtrosEgresos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosCreditos" xlink:to="L37525_OtrosCreditos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosCapital" xlink:to="L37525_OtrosCapital_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosAportesNoCapitalizados" xlink:to="L37525_OtrosAportesNoCapitalizados_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosActivosNoCorrientes" xlink:to="L37525_OtrosActivosNoCorrientes_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrosActivosCorrientes" xlink:to="L37525_OtrosActivosCorrientes_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrasReservas" xlink:to="L37525_OtrasReservas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_OtrasGananciasReservadas" xlink:to="L37525_OtrasGananciasReservadas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ObligacionesSubordinadas" xlink:to="L37525_ObligacionesSubordinadas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ObligacionesDiversas" xlink:to="L37525_ObligacionesDiversas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Number" xlink:to="L37525_Number_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Name" xlink:to="L37525_Name_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ModificaciondeEjerciciosAnteriores" xlink:to="L37525_ModificaciondeEjerciciosAnteriores_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Inversiones" xlink:to="L37525_Inversiones_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Inmuebles" xlink:to="L37525_Inmuebles_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_IngresosporServicios" xlink:to="L37525_IngresosporServicios_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_IngresosFinancieros" xlink:to="L37525_IngresosFinancieros_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ImpuestosalasGanancias" xlink:to="L37525_ImpuestosalasGanancias_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ImpuestoalasGanancias" xlink:to="L37525_ImpuestoalasGanancias_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_GeneradosPorPasivos" xlink:to="L37525_GeneradosPorPasivos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_GeneradosPorActivos" xlink:to="L37525_GeneradosPorActivos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_GastosdeProduccionyExplotacion" xlink:to="L37525_GastosdeProduccionyExplotacion_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_GastosdeExplotacionyotroscargos" xlink:to="L37525_GastosdeExplotacionyotroscargos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_GastosdeComercializacion" xlink:to="L37525_GastosdeComercializacion_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_GastosdeAdministracion" xlink:to="L37525_GastosdeAdministracion_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Ganancia_Perdida_Ordinaria" xlink:to="L37525_Ganancia_Perdida_Ordinaria_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Ganancia_Perdida_delEjercicio" xlink:to="L37525_Ganancia_Perdida_delEjercicio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_FondosModificadosalIniciodelejercicio" xlink:to="L37525_FondosModificadosalIniciodelejercicio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_FondosalIniciodelEjercicio" xlink:to="L37525_FondosalIniciodelEjercicio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_FondosalCierredelEjercicio" xlink:to="L37525_FondosalCierredelEjercicio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_EgresosporServicios" xlink:to="L37525_EgresosporServicios_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Dividendos" xlink:to="L37525_Dividendos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Disponibilidades" xlink:to="L37525_Disponibilidades_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_DiferenciadeValuacionNoRealizada" xlink:to="L37525_DiferenciadeValuacionNoRealizada_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Depositos" xlink:to="L37525_Depositos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CuentasporPagar_Comerciales_" xlink:to="L37525_CuentasporPagar_Comerciales__REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CreditosporVentas" xlink:to="L37525_CreditosporVentas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CreditosDiversos" xlink:to="L37525_CreditosDiversos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Creditos" xlink:to="L37525_Creditos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CostodeVentas" xlink:to="L37525_CostodeVentas_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Comp.Tec.porSeg.yReaseguros" xlink:to="L37525_Comp.Tec.porSeg.yReaseguros_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Common" xlink:to="L37525_Common_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Chapter" xlink:to="L37525_Chapter_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CargoporIncobrabilidad" xlink:to="L37525_CargoporIncobrabilidad_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CargasFiscales" xlink:to="L37525_CargasFiscales_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CapitalSuscripto" xlink:to="L37525_CapitalSuscripto_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_CapitalSocial" xlink:to="L37525_CapitalSocial_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_BienesMueblesdeUso" xlink:to="L37525_BienesMueblesdeUso_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_BienesIntangibles" xlink:to="L37525_BienesIntangibles_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_BienesenLocacionFinanciera" xlink:to="L37525_BienesenLocacionFinanciera_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_BienesDiversos" xlink:to="L37525_BienesDiversos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_BienesdeUso" xlink:to="L37525_BienesdeUso_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_BienesdeCambio" xlink:to="L37525_BienesdeCambio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_Aumento_Disminucion_delosFondos" xlink:to="L37525_Aumento_Disminucion_delosFondos_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AportesIrrevocables_NoCapitalizados_" xlink:to="L37525_AportesIrrevocables_NoCapitalizados__REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AnticiposdeClientes" xlink:to="L37525_AnticiposdeClientes_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AjustesalPatrimonio" xlink:to="L37525_AjustesalPatrimonio_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AjustedeCapital" xlink:to="L37525_AjustedeCapital_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AjustedeAdelantosIrrevocablesaCuentadeFutura" xlink:to="L37525_AjustedeAdelantosIrrevocablesaCuentadeFutura_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AdelantosIrrevocablesaCuentadeFuturasSuscrip." xlink:to="L37525_AdelantosIrrevocablesaCuentadeFuturasSuscrip._REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AdelantosIrrevocables" xlink:to="L37525_AdelantosIrrevocables_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_ActivosIntangibles" xlink:to="L37525_ActivosIntangibles_REF"/>
+		<referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/element-reference" xlink:from="L37525_AccionesaDistribuir" xlink:to="L37525_AccionesaDistribuir_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AccionesaDistribuir_REF">
+			<cnv:Name>41200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ActivosIntangibles_REF">
+			<cnv:Name>12600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AdelantosIrrevocables_REF">
+			<cnv:Name>40200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AdelantosIrrevocablesaCuentadeFuturasSuscrip._REF">
+			<cnv:Name>42100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AjustedeAdelantosIrrevocablesaCuentadeFutura_REF">
+			<cnv:Name>42200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AjustedeCapital_REF">
+			<cnv:Name>40400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AjustesalPatrimonio_REF">
+			<cnv:Name>40500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AnticiposdeClientes_REF">
+			<cnv:Name>21600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_AportesIrrevocables_NoCapitalizados__REF">
+			<cnv:Name>40300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Aumento_Disminucion_delosFondos_REF">
+			<cnv:Name>61400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_BienesdeCambio_REF">
+			<cnv:Name>11500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_BienesdeUso_REF">
+			<cnv:Name>10900</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_BienesDiversos_REF">
+			<cnv:Name>11100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_BienesenLocacionFinanciera_REF">
+			<cnv:Name>10600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_BienesIntangibles_REF">
+			<cnv:Name>11200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_BienesMueblesdeUso_REF">
+			<cnv:Name>10500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CapitalSocial_REF">
+			<cnv:Name>40100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CapitalSuscripto_REF">
+			<cnv:Name>41100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CargasFiscales_REF">
+			<cnv:Name>21400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CargoporIncobrabilidad_REF">
+			<cnv:Name>50300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Chapter_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Common_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Comp.Tec.porSeg.yReaseguros_REF">
+			<cnv:Name>20200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CostodeVentas_REF">
+			<cnv:Name>50200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Creditos_REF">
+			<cnv:Name>10300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CreditosDiversos_REF">
+			<cnv:Name>10800</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CreditosporVentas_REF">
+			<cnv:Name>11300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_CuentasporPagar_Comerciales__REF">
+			<cnv:Name>21100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Depositos_REF">
+			<cnv:Name>20100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_DiferenciadeValuacionNoRealizada_REF">
+			<cnv:Name>40900</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Disponibilidades_REF">
+			<cnv:Name>10100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Dividendos_REF">
+			<cnv:Name>21500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_EgresosporServicios_REF">
+			<cnv:Name>50500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_FondosalCierredelEjercicio_REF">
+			<cnv:Name>61500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_FondosalIniciodelEjercicio_REF">
+			<cnv:Name>61100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_FondosModificadosalIniciodelejercicio_REF">
+			<cnv:Name>61300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Ganancia_Perdida_delEjercicio_REF">
+			<cnv:Name>51300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Ganancia_Perdida_Ordinaria_REF">
+			<cnv:Name>51100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_GastosdeAdministracion_REF">
+			<cnv:Name>50420</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_GastosdeComercializacion_REF">
+			<cnv:Name>50410</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_GastosdeExplotacionyotroscargos_REF">
+			<cnv:Name>52500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_GastosdeProduccionyExplotacion_REF">
+			<cnv:Name>51400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_GeneradosPorActivos_REF">
+			<cnv:Name>50710</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_GeneradosPorPasivos_REF">
+			<cnv:Name>50720</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ImpuestoalasGanancias_REF">
+			<cnv:Name>55000</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ImpuestosalasGanancias_REF">
+			<cnv:Name>50800</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_IngresosFinancieros_REF">
+			<cnv:Name>50100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_IngresosporServicios_REF">
+			<cnv:Name>50400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Inmuebles_REF">
+			<cnv:Name>10400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Inversiones_REF">
+			<cnv:Name>10200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ModificaciondeEjerciciosAnteriores_REF">
+			<cnv:Name>61200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Name_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Number_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ObligacionesDiversas_REF">
+			<cnv:Name>20300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ObligacionesSubordinadas_REF">
+			<cnv:Name>20600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrasGananciasReservadas_REF">
+			<cnv:Name>43300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrasReservas_REF">
+			<cnv:Name>40700</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosActivosCorrientes_REF">
+			<cnv:Name>11700</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosActivosNoCorrientes_REF">
+			<cnv:Name>12700</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosAportesNoCapitalizados_REF">
+			<cnv:Name>42400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosCapital_REF">
+			<cnv:Name>41400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosCreditos_REF">
+			<cnv:Name>11400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosEgresos_REF">
+			<cnv:Name>51600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosGastos_REF">
+			<cnv:Name>50430</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosIngresos_REF">
+			<cnv:Name>51500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosPasivosCorrientes_REF">
+			<cnv:Name>21800</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosPasivosNoCorrientes_REF">
+			<cnv:Name>22700</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_OtrosRevaluos_REF">
+			<cnv:Name>45300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Paragraph_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ParticipaciondeTercerosenSociedadesControladas_REF">
+			<cnv:Name>30100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ParticipacionenOtrasSociedades_REF">
+			<cnv:Name>10700</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_PartidasPendientesdeImputacion_REF">
+			<cnv:Name>20500</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Prestamos_BancariosyFinancieros__REF">
+			<cnv:Name>21200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Previsiones_REF">
+			<cnv:Name>20400</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_PrimadeEmision_REF">
+			<cnv:Name>42300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_RemuneracionesyCargasSociales_REF">
+			<cnv:Name>21300</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Rentas_REF">
+			<cnv:Name>52100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ReservaLegal_REF">
+			<cnv:Name>40600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoFinanciero_REF">
+			<cnv:Name>52900</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoNetoAntesdeImp._REF">
+			<cnv:Name>51200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoNetoFinal_REF">
+			<cnv:Name>59000</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoNetoInterm.Financiera_REF">
+			<cnv:Name>50700</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoOperacionesExtraordinarias_REF">
+			<cnv:Name>54000</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoOperacionesOrdinarias_REF">
+			<cnv:Name>53000</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoporExposicionalaInflacion_REF">
+			<cnv:Name>52600</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadosNoAsignados_REF">
+			<cnv:Name>40800</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadosporRealizacion_REF">
+			<cnv:Name>52200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_ResultadoTecnico_REF">
+			<cnv:Name>51900</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_RevaluoPropio_REF">
+			<cnv:Name>45100</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_RevaluoSociedadArt.33LeySoc.Com._REF">
+			<cnv:Name>45200</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Subparagraph_REF"/>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_Subtotal_REF">
+			<cnv:Name>39999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalActivo_REF">
+			<cnv:Name>19999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalActivoCorriente_REF">
+			<cnv:Name>11999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalActivoNoCorriente_REF">
+			<cnv:Name>12999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalAportesNoCapitalizados_REF">
+			<cnv:Name>42999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalCapital_REF">
+			<cnv:Name>41999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalGananciasReservadas_REF">
+			<cnv:Name>43999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalPasivo_REF">
+			<cnv:Name>29999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalPasivoCorriente_REF">
+			<cnv:Name>21999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalPasivoNoCorriente_REF">
+			<cnv:Name>22999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalPatrimonioNeto_REF">
+			<cnv:Name>49999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalResultadosNoAsignados_REF">
+			<cnv:Name>44999</cnv:Name>
+		</reference>
+		<reference xlink:type="resource" xlink:role="http://www.xbrl.org/linkprops/linkRef/reference" xlink:label="L37525_TotalRevaluacionesTecnicasContables_REF">
+			<cnv:Name>45999</cnv:Name>
+		</reference>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AccionesaDistribuir" xlink:label="L37525_AccionesaDistribuir"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ActivosIntangibles" xlink:label="L37525_ActivosIntangibles"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AdelantosIrrevocables" xlink:label="L37525_AdelantosIrrevocables"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AdelantosIrrevocablesaCuentadeFuturasSuscrip." xlink:label="L37525_AdelantosIrrevocablesaCuentadeFuturasSuscrip."/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AjustedeAdelantosIrrevocablesaCuentadeFutura" xlink:label="L37525_AjustedeAdelantosIrrevocablesaCuentadeFutura"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AjustedeCapital" xlink:label="L37525_AjustedeCapital"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AjustesalPatrimonio" xlink:label="L37525_AjustesalPatrimonio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AnticiposdeClientes" xlink:label="L37525_AnticiposdeClientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#AportesIrrevocables_NoCapitalizados_" xlink:label="L37525_AportesIrrevocables_NoCapitalizados_"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Aumento_Disminucion_delosFondos" xlink:label="L37525_Aumento_Disminucion_delosFondos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#BienesdeCambio" xlink:label="L37525_BienesdeCambio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#BienesdeUso" xlink:label="L37525_BienesdeUso"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#BienesDiversos" xlink:label="L37525_BienesDiversos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#BienesenLocacionFinanciera" xlink:label="L37525_BienesenLocacionFinanciera"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#BienesIntangibles" xlink:label="L37525_BienesIntangibles"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#BienesMueblesdeUso" xlink:label="L37525_BienesMueblesdeUso"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CapitalSocial" xlink:label="L37525_CapitalSocial"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CapitalSuscripto" xlink:label="L37525_CapitalSuscripto"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CargasFiscales" xlink:label="L37525_CargasFiscales"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CargoporIncobrabilidad" xlink:label="L37525_CargoporIncobrabilidad"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Chapter" xlink:label="L37525_Chapter"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Common" xlink:label="L37525_Common"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Comp.Tec.porSeg.yReaseguros" xlink:label="L37525_Comp.Tec.porSeg.yReaseguros"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CostodeVentas" xlink:label="L37525_CostodeVentas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Creditos" xlink:label="L37525_Creditos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CreditosDiversos" xlink:label="L37525_CreditosDiversos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CreditosporVentas" xlink:label="L37525_CreditosporVentas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#CuentasporPagar_Comerciales_" xlink:label="L37525_CuentasporPagar_Comerciales_"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Depositos" xlink:label="L37525_Depositos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#DiferenciadeValuacionNoRealizada" xlink:label="L37525_DiferenciadeValuacionNoRealizada"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Disponibilidades" xlink:label="L37525_Disponibilidades"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Dividendos" xlink:label="L37525_Dividendos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#EgresosporServicios" xlink:label="L37525_EgresosporServicios"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#FondosalCierredelEjercicio" xlink:label="L37525_FondosalCierredelEjercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#FondosalIniciodelEjercicio" xlink:label="L37525_FondosalIniciodelEjercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#FondosModificadosalIniciodelejercicio" xlink:label="L37525_FondosModificadosalIniciodelejercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Ganancia_Perdida_delEjercicio" xlink:label="L37525_Ganancia_Perdida_delEjercicio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Ganancia_Perdida_Ordinaria" xlink:label="L37525_Ganancia_Perdida_Ordinaria"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#GastosdeAdministracion" xlink:label="L37525_GastosdeAdministracion"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#GastosdeComercializacion" xlink:label="L37525_GastosdeComercializacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#GastosdeExplotacionyotroscargos" xlink:label="L37525_GastosdeExplotacionyotroscargos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#GastosdeProduccionyExplotacion" xlink:label="L37525_GastosdeProduccionyExplotacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#GeneradosPorActivos" xlink:label="L37525_GeneradosPorActivos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#GeneradosPorPasivos" xlink:label="L37525_GeneradosPorPasivos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ImpuestoalasGanancias" xlink:label="L37525_ImpuestoalasGanancias"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ImpuestosalasGanancias" xlink:label="L37525_ImpuestosalasGanancias"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#IngresosFinancieros" xlink:label="L37525_IngresosFinancieros"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#IngresosporServicios" xlink:label="L37525_IngresosporServicios"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Inmuebles" xlink:label="L37525_Inmuebles"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Inversiones" xlink:label="L37525_Inversiones"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ModificaciondeEjerciciosAnteriores" xlink:label="L37525_ModificaciondeEjerciciosAnteriores"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Name" xlink:label="L37525_Name"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Number" xlink:label="L37525_Number"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ObligacionesDiversas" xlink:label="L37525_ObligacionesDiversas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ObligacionesSubordinadas" xlink:label="L37525_ObligacionesSubordinadas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrasGananciasReservadas" xlink:label="L37525_OtrasGananciasReservadas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrasReservas" xlink:label="L37525_OtrasReservas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosActivosCorrientes" xlink:label="L37525_OtrosActivosCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosActivosNoCorrientes" xlink:label="L37525_OtrosActivosNoCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosAportesNoCapitalizados" xlink:label="L37525_OtrosAportesNoCapitalizados"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosCapital" xlink:label="L37525_OtrosCapital"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosCreditos" xlink:label="L37525_OtrosCreditos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosEgresos" xlink:label="L37525_OtrosEgresos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosGastos" xlink:label="L37525_OtrosGastos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosIngresos" xlink:label="L37525_OtrosIngresos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosPasivosCorrientes" xlink:label="L37525_OtrosPasivosCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosPasivosNoCorrientes" xlink:label="L37525_OtrosPasivosNoCorrientes"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#OtrosRevaluos" xlink:label="L37525_OtrosRevaluos"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Paragraph" xlink:label="L37525_Paragraph"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ParticipaciondeTercerosenSociedadesControladas" xlink:label="L37525_ParticipaciondeTercerosenSociedadesControladas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ParticipacionenOtrasSociedades" xlink:label="L37525_ParticipacionenOtrasSociedades"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Prestamos_BancariosyFinancieros_" xlink:label="L37525_Prestamos_BancariosyFinancieros_"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#PartidasPendientesdeImputacion" xlink:label="L37525_PartidasPendientesdeImputacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Previsiones" xlink:label="L37525_Previsiones"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#PrimadeEmision" xlink:label="L37525_PrimadeEmision"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#RemuneracionesyCargasSociales" xlink:label="L37525_RemuneracionesyCargasSociales"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Rentas" xlink:label="L37525_Rentas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ReservaLegal" xlink:label="L37525_ReservaLegal"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoFinanciero" xlink:label="L37525_ResultadoFinanciero"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoNetoAntesdeImp." xlink:label="L37525_ResultadoNetoAntesdeImp."/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoNetoFinal" xlink:label="L37525_ResultadoNetoFinal"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoNetoInterm.Financiera" xlink:label="L37525_ResultadoNetoInterm.Financiera"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoOperacionesExtraordinarias" xlink:label="L37525_ResultadoOperacionesExtraordinarias"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoOperacionesOrdinarias" xlink:label="L37525_ResultadoOperacionesOrdinarias"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoporExposicionalaInflacion" xlink:label="L37525_ResultadoporExposicionalaInflacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadosNoAsignados" xlink:label="L37525_ResultadosNoAsignados"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadosporRealizacion" xlink:label="L37525_ResultadosporRealizacion"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#ResultadoTecnico" xlink:label="L37525_ResultadoTecnico"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#RevaluoPropio" xlink:label="L37525_RevaluoPropio"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#RevaluoSociedadArt.33LeySoc.Com." xlink:label="L37525_RevaluoSociedadArt.33LeySoc.Com."/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Subparagraph" xlink:label="L37525_Subparagraph"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#Subtotal" xlink:label="L37525_Subtotal"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalActivo" xlink:label="L37525_TotalActivo"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalActivoCorriente" xlink:label="L37525_TotalActivoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalActivoNoCorriente" xlink:label="L37525_TotalActivoNoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalAportesNoCapitalizados" xlink:label="L37525_TotalAportesNoCapitalizados"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalCapital" xlink:label="L37525_TotalCapital"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalGananciasReservadas" xlink:label="L37525_TotalGananciasReservadas"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalPasivo" xlink:label="L37525_TotalPasivo"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalPasivoCorriente" xlink:label="L37525_TotalPasivoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalPasivoNoCorriente" xlink:label="L37525_TotalPasivoNoCorriente"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalPatrimonioNeto" xlink:label="L37525_TotalPatrimonioNeto"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalResultadosNoAsignados" xlink:label="L37525_TotalResultadosNoAsignados"/>
+		<loc xlink:type="locator" xlink:href="cnv-2002-09-26.xsd#TotalRevaluacionesTecnicasContables" xlink:label="L37525_TotalRevaluacionesTecnicasContables"/>
+	</referenceLink>
+</linkbase>
